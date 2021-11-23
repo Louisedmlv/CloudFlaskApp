@@ -4,7 +4,7 @@ import numpy as np
 
 application = Flask(__name__)
 @application.route('/')
-def hello(yourname): 
+def hello(): 
     return 'Hello Louise \n'
 
 @application.route('/random/<n>')
