@@ -3,9 +3,9 @@ from flask import jsonify
 import numpy as np
 
 application = Flask(__name__)
-@application.route('/<yourname>')
+@application.route('/')
 def hello(yourname): 
-    return 'Hello '+ yourname+ '\n'
+    return 'Hello Louise \n'
 
 @application.route('/random/<n>')
 def randomvalues(n): 
